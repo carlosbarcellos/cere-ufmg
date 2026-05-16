@@ -1,5 +1,5 @@
 /* ============================================================
-   CERB — Centro de Estudos de Real Estate | UFMG
+   CERE — Centro de Estudos de Real Estate | UFMG
    main.js — Language toggle, navigation, UI components
    ============================================================ */
 
@@ -16,7 +16,7 @@
     html.classList.remove('lang-pt', 'lang-en');
     html.classList.add('lang-' + lang);
     html.setAttribute('lang', lang === 'pt' ? 'pt-BR' : 'en');
-    localStorage.setItem('cerb-lang', lang);
+    localStorage.setItem('cere-lang', lang);
     langBtns.forEach(function (btn) {
       btn.classList.toggle('active', btn.dataset.lang === lang);
     });
@@ -27,7 +27,7 @@
   });
 
   /* Restore saved language or default to PT */
-  var savedLang = localStorage.getItem('cerb-lang') || 'pt';
+  var savedLang = localStorage.getItem('cere-lang') || 'pt';
   setLang(savedLang);
 
   /* ----------------------------------------------------------
