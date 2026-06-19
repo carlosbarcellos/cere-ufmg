@@ -345,6 +345,8 @@ th { background: var(--navy); color: var(--white); padding: .7rem 1rem; text-ali
 td { padding: .7rem 1rem; border-bottom: 1px solid var(--gray-200); color: var(--gray-700); }
 tr:last-child td { border-bottom: none; }
 tr:hover td { background: var(--gray-50); }
+td a { color: var(--navy); font-weight: 600; }
+td a:hover { color: var(--red); text-decoration: underline; }
 
 /* ============================================================
    FORM
@@ -440,6 +442,8 @@ textarea.form-control { resize: vertical; min-height: 130px; }
 .prose h3 { font-size: 1.05rem; font-weight: 700; color: var(--navy); margin: 1.5rem 0 .4rem; }
 .prose ul { list-style: disc; padding-left: 1.4rem; margin-bottom: 1.1rem; }
 .prose ul li { margin-bottom: .4rem; color: var(--gray-700); }
+.prose ol { padding-left: 1.4rem; margin-bottom: 1.1rem; }
+.prose ol li { margin-bottom: .4rem; color: var(--gray-700); }
 
 /* ============================================================
    RESPONSIVE
