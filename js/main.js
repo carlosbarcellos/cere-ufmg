@@ -1,5 +1,5 @@
 /* ============================================================
-   CERE — Centro de Estudos de Real Estate | UFMG
+   CERE — Centro de Estudos em Real Estate | UFMG
    main.js — Language toggle, navigation, UI components
    ============================================================ */
 

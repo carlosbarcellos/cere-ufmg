@@ -1,5 +1,5 @@
 /* ============================================================
-   CERE — Centro de Estudos de Real Estate | UFMG
+   CERE — Centro de Estudos em Real Estate | UFMG
    Identidade visual baseada em FACE UFMG (face.ufmg.br)
    ============================================================ */
 
@@ -390,6 +390,8 @@ textarea.form-control { resize: vertical; min-height: 130px; }
    ============================================================ */
 .partner-grid { display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center; }
 .partner-placeholder { width: 130px; height: 50px; background: var(--gray-200); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: .75rem; color: var(--gray-500); }
+.partner-logo-box { width: 160px; height: 70px; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; padding: .75rem; }
+.partner-logo-box img { max-width: 100%; max-height: 100%; object-fit: contain; }
 
 /* ============================================================
    FOOTER
